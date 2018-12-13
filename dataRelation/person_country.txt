@@ -1,0 +1,5 @@
+MATCH (p:Person {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (p)-[:song_tai{Time:[{time}]}]->(c)
+MATCH (p:Person {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (p)-[:tim_ra{Time:[{time}]}]->(c)
+MATCH (p:Person {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (p)-[:sinh_ra_tai{Time:[{time}]}]->(c)
+MATCH (p:Person {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (p)-[:chet_tai{Time:[{time}]}]->(c)
+MATCH (p:Person {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (p)-[:hoc_tai{Time:[{time}]}]->(c)

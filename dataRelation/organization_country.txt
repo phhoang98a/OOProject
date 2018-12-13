@@ -1,0 +1,5 @@
+MATCH (o:Organization {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (o)-[:co_tru_so_tai{Time:[{time}]}]->(c)
+MATCH (o:Organization {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (o)-[:co_chi_nhanh_tai{Time:[{time}]}]->(c)
+MATCH (o:Organization {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (o)-[:dong_gop_cho{Time:[{time}]}]->(c)
+MATCH (o:Organization {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (o)-[:xay_dung{Time:[{time}]}]->(c)
+MATCH (o:Organization {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (o)-[:phat_trien{Time:[{time}]}]->(c)

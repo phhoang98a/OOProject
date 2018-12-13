@@ -1,0 +1,5 @@
+song_tai
+tim_ra
+sinh_ra_tai
+chet_tai
+hoc_tai

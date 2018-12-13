@@ -1,0 +1,6 @@
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:thuoc_ve{Time:[{time}]}]->(c)
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:la_dia_diem_cua{Time:[{time}]}]->(c)
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:la_noi_to_chuc_le_hoi_cua{Time:[{time}]}]->(c)
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:la_noi_co_dan_so_dong_nhat_cua{Time:[{time}]}]->(c)
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:la_thanh_pho_cua{Time:[{time}]}]->(c)
+MATCH (l:Location {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (l)-[:la_thi_tran_cua{Time:[{time}]}]->(c)

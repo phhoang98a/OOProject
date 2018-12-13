@@ -1,0 +1,5 @@
+MATCH (l:Location {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (l)-[:la_noi_dat_tru_so_cua{Time:[{time}]}]->(o)
+MATCH (l:Location {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (l)-[:la_noi_thanh_lap_cua{Time:[{time}]}]->(o)
+MATCH (l:Location {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (l)-[:la_noi_duoc_xay_dung_boi{Time:[{time}]}]->(o)
+MATCH (l:Location {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (l)-[:la_noi_dia_diem_picnic_cua{Time:[{time}]}]->(o)
+MATCH (l:Location {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (l)-[:tung_la_noi_dat_tru_so_cua{Time:[{time}]}]->(o)

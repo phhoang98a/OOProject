@@ -1,0 +1,5 @@
+MATCH (c:Country {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (c)-[:bao_gom_ca{Time:[{time}]}]->(l)
+MATCH (c:Country {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (c)-[:to_chuc_le_hoi_tai{Time:[{time}]}]->(l)
+MATCH (c:Country {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (c)-[:co_dan_so_tap_trung_tai{Time:[{time}]}]->(l)
+MATCH (c:Country {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (c)-[:co_thu_do_la{Time:[{time}]}]->(l)
+MATCH (c:Country {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (c)-[:co_mot_thi_tran_la{Time:[{time}]}]->(l)

@@ -1,0 +1,2 @@
+MATCH (l:Location {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (l)-[:dang_dien_ra{Time:[{time}]}]->(e)
+MATCH (l:Location {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (l)-[:se_to_chuc{Time:[{time}]}]->(e)

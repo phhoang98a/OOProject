@@ -1,0 +1,5 @@
+MATCH (l:Location {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (l)-[:la_que_huong_cua{Time:[{time}]}]->(p)
+MATCH (l:Location {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (l)-[:la_noi_lam_viec_cua{Time:[{time}]}]->(p)
+MATCH (l:Location {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (l)-[:la_nha_cua{Time:[{time}]}]->(p)
+MATCH (l:Location {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (l)-[:la_noi_sinh_song_cua{Time:[{time}]}]->(p)
+MATCH (l:Location {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (l)-[:la_noi_lon_len_cua{Time:[{time}]}]->(p)

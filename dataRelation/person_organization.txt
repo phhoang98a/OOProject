@@ -1,0 +1,5 @@
+MATCH (p:Person {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (p)-[:lam_viec_cho{Time:[{time}]}]->(o)
+MATCH (p:Person {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (p)-[:thanh_lap{Time:[{time}]}]->(o)
+MATCH (p:Person {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (p)-[:gay_dung_nen{Time:[{time}]}]->(o)
+MATCH (p:Person {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (p)-[:la_leader_cua{Time:[{time}]}]->(o)
+MATCH (p:Person {id:{entity1}}),(o:Organization {id:{entity2}}) CREATE (p)-[:la_thanh_vien_cua{Time:[{time}]}]->(o)

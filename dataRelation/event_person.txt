@@ -1,0 +1,3 @@
+MATCH (e:Event {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (e)-[:ton_vinh{Time:[{time}]}]->(p)
+MATCH (e:Event {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (e)-[:duoc_tai_tro_boi{Time:[{time}]}]->(p)
+MATCH (e:Event {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (e)-[:duoc_to_chuc_boi{Time:[{time}]}]->(p)

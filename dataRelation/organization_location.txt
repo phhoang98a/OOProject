@@ -1,0 +1,5 @@
+MATCH (o:Organization {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (o)-[:co_tru_so_tai{Time:[{time}]}]->(l)
+MATCH (o:Organization {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (o)-[:to_chuc_chuong_trinh_tai{Time:[{time}]}]->(l)
+MATCH (o:Organization {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (o)-[:co_chi_nhanh_tai{Time:[{time}]}]->(l)
+MATCH (o:Organization {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (o)-[:duoc_xay_dung_tai{Time:[{time}]}]->(l)
+MATCH (o:Organization {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (o)-[:co_nhan_vien_song_tai{Time:[{time}]}]->(l)

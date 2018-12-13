@@ -1,0 +1,5 @@
+MATCH (c:Country {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (c)-[:la_que_huong_cua{Time:[{time}]}]->(p)
+MATCH (c:Country {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (c)-[:la_noi_lam_viec_cua{Time:[{time}]}]->(p)
+MATCH (c:Country {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (c)-[:la_cong_tac_cua{Time:[{time}]}]->(p)
+MATCH (c:Country {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (c)-[:la_noi_sinh_song_cua{Time:[{time}]}]->(p)
+MATCH (c:Country {id:{entity1}}),(p:Person {id:{entity2}}) CREATE (c)-[:la_noi_lon_len_cua{Time:[{time}]}]->(p)

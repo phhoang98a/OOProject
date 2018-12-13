@@ -1,0 +1,5 @@
+MATCH (e:Event {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (e)-[:duoc_to_chuc_tai{Time:[{time}]}]->(c)
+MATCH (e:Event {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (e)-[:duoc_to_chuc_boi{Time:[{time}]}]->(c)
+MATCH (e:Event {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (e)-[:co_su_tham_gia_cua{Time:[{time}]}]->(c)
+MATCH (e:Event {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (e)-[:duoc_khai_mac_tai{Time:[{time}]}]->(c)
+MATCH (e:Event {id:{entity1}}),(c:Country {id:{entity2}}) CREATE (e)-[:duoc_be_mac_tai{Time:[{time}]}]->(c)

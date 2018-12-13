@@ -1,0 +1,5 @@
+lam_viec_cho
+thanh_lap
+gay_dung_nen
+la_leader_cua
+la_thanh_vien_cua

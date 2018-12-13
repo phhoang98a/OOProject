@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Neo4J</groupId>
+  <artifactId>Neo4J</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+    <dependencies>
+<!-- tag::bolt-dependency[] -->
+        <dependency>
+            <groupId>org.neo4j.driver</groupId>
+            <artifactId>neo4j-java-driver</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+         <dependency>
+            <groupId>org.neo4j</groupId>
+            <artifactId>neo4j</artifactId>
+            <version>3.4.9</version>
+        </dependency>
+<!-- end::bolt-dependency[] -->
+
+    </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.0</version>
+        <configuration>
+          <release>10</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

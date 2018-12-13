@@ -1,0 +1,5 @@
+MATCH (c:Country {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (c)-[:la_noi_to_chuc_cua {Time:[{time}]} ]->(e)
+MATCH (c:Country {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (c)-[:to_chuc_su_kien{Time:[{time}]}]->(e)
+MATCH (c:Country {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (c)-[:la_noi_be_mac_cua{Time:[{time}]}]->(e)
+MATCH (c:Country {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (c)-[:la_noi_khai_mac_cua{Time:[{time}]}]->(e)
+MATCH (c:Country {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (c)-[:chu_tri_su_kien{Time:[{time}]}]->(e)

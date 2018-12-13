@@ -1,0 +1,5 @@
+MATCH (p:Person {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (p)-[:di_du_lich_tai{Time:[{time}]}]->(l)
+MATCH (p:Person {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (p)-[:lam_viec_tai{Time:[{time}]}]->(l)
+MATCH (p:Person {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (p)-[:song_tai{Time:[{time}]}]->(l)
+MATCH (p:Person {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (p)-[:sinh_tai{Time:[{time}]}]->(l)
+MATCH (p:Person {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (p)-[:lon_len_tai{Time:[{time}]}]->(l)

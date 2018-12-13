@@ -1,0 +1,6 @@
+thuoc_ve
+la_dia_diem_cua
+la_noi_to_chuc_le_hoi_cua
+la_noi_co_dan_so_dong_nhat_cua
+la_thanh_pho_cua
+la_thi_tran_cua

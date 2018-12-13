@@ -1,0 +1,3 @@
+MATCH (e:Event {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (e)-[:duoc_to_chuc_o{Time:[{time}]}]->(l)
+MATCH (e:Event {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (e)-[:khai_mac_tai{Time:[{time}]}]->(l)
+MATCH (e:Event {id:{entity1}}),(l:Location {id:{entity2}}) CREATE (e)-[:be_mac_tai{Time:[{time}]}]->(l)

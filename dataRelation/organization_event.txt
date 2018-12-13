@@ -1,0 +1,2 @@
+MATCH (o:Organization {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (o)-[:to_chuc{Time:[{time}]}]->(e)
+MATCH (o:Organization {id:{entity1}}),(e:Event {id:{entity2}}) CREATE (o)-[:tai_tro_cho{Time:[{time}]}]->(e)
